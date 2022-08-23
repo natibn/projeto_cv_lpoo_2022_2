@@ -81,6 +81,76 @@ public class Venda {
     public void setData(Calendar data) {
         this.data = data;
     }
+
+    /**
+     * @return the produtos
+     */
+    public List<Produto> getProdutos() {
+        return produtos;
+    }
+
+    /**
+     * @param produtos the produtos to set
+     */
+    public void setProdutos(List<Produto> produtos) {
+        this.produtos = produtos;
+    }
+
+    /**
+     * @return the consultas
+     */
+    public List<Consulta> getConsultas() {
+        return consultas;
+    }
+
+    /**
+     * @param consultas the consultas to set
+     */
+    public void setConsultas(List<Consulta> consultas) {
+        this.consultas = consultas;
+    }
+
+    /**
+     * @return the funcionarios
+     */
+    public Funcionario getFuncionarios() {
+        return funcionarios;
+    }
+
+    /**
+     * @param funcionarios the funcionarios to set
+     */
+    public void setFuncionarios(Funcionario funcionarios) {
+        this.funcionarios = funcionarios;
+    }
+
+    /**
+     * @return the clientes
+     */
+    public Cliente getClientes() {
+        return clientes;
+    }
+
+    /**
+     * @param clientes the clientes to set
+     */
+    public void setClientes(Cliente clientes) {
+        this.clientes = clientes;
+    }
+
+    /**
+     * @return the pagamentos
+     */
+    public Pagamento getPagamentos() {
+        return pagamentos;
+    }
+
+    /**
+     * @param pagamentos the pagamentos to set
+     */
+    public void setPagamentos(Pagamento pagamentos) {
+        this.pagamentos = pagamentos;
+    }
     
     
 }

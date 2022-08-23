@@ -20,6 +20,10 @@ public class Consulta {
     private List<Receita> receitas;
     private Medico medicos;
     private Pet pets;
+    
+    public Consulta(){
+        
+    }
 
     /**
      * @return the id

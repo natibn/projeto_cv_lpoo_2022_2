@@ -76,6 +76,20 @@ public class Pet {
     public void setObservacao(String observacao) {
         this.observacao = observacao;
     }
+
+    /**
+     * @return the racas
+     */
+    public Raca getRacas() {
+        return racas;
+    }
+
+    /**
+     * @param racas the racas to set
+     */
+    public void setRacas(Raca racas) {
+        this.racas = racas;
+    }
     
     
 }

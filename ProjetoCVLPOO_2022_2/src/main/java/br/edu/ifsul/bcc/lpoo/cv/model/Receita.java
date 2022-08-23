@@ -43,5 +43,34 @@ public class Receita {
     public void setOrientacao(String orientacao) {
         this.orientacao = orientacao;
     }
+
+    /**
+     * @return the produtos
+     */
+    public List <Produto> getProdutos() {
+        return produtos;
+    }
+
+    /**
+     * @param produtos the produtos to set
+     */
+    public void setProdutos(List <Produto> produtos) {
+        this.produtos = produtos;
+    }
+
+    /**
+     * @return the consultas
+     */
+    public Consulta getConsultas() {
+        return consultas;
+    }
+
+    /**
+     * @param consultas the consultas to set
+     */
+    public void setConsultas(Consulta consultas) {
+        this.consultas = consultas;
+    }
+    
     
 }

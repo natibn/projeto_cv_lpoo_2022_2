@@ -71,6 +71,34 @@ public class Produto {
     public void setQuantidade(Float quantidade) {
         this.quantidade = quantidade;
     }
+
+    /**
+     * @return the tiposprodutos
+     */
+    public TipoProduto getTiposprodutos() {
+        return tiposprodutos;
+    }
+
+    /**
+     * @param tiposprodutos the tiposprodutos to set
+     */
+    public void setTiposprodutos(TipoProduto tiposprodutos) {
+        this.tiposprodutos = tiposprodutos;
+    }
+
+    /**
+     * @return the fornecedores
+     */
+    public Fornecedor getFornecedores() {
+        return fornecedores;
+    }
+
+    /**
+     * @param fornecedores the fornecedores to set
+     */
+    public void setFornecedores(Fornecedor fornecedores) {
+        this.fornecedores = fornecedores;
+    }
     
     
 }
